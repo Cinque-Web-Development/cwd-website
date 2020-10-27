@@ -31,45 +31,31 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Trippin'</h3>
+                                <p>Click to start planning trips</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="https://trippin-cwd.herokuapp.com" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Caddie</h3>
+                                <p>Click to start searching for golf courses</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="https://www.caddie-golf.com" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Collect the Cosmos</h3>
+                                <p>Click to explore the most beautiful images the universe has to offer.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="https://collect-the-cosmos.herokuapp.com/" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>PokeFaves</h3>
+                                <p>Click to collect pokemon and build your best teams.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="https://pokefaves.herokuapp.com/" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">
