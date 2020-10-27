@@ -13,7 +13,7 @@
 
 	#header {
 		@include vendor('display', 'flex');
-		background-color: _palette(bg-alt);
+		// background-color: _palette(bg-alt);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
@@ -31,8 +31,7 @@
 		.logo {
 			border: 0;
 			display: inline-block;
-			font-size: 0.8em;
-			height: inherit;
+			height: 100%;
 			line-height: inherit;
 			padding: 0 1.5em;
 
@@ -46,12 +45,12 @@
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
-				// padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
+				padding: 0 0.125em 0 (_font(letter-spacing-alt) + 0.125em);
 			}
 
 			&:hover {
 				strong {
-					background-color: _palette(highlight);
+					// background-color: _palette(highlight);
 				}
 			}
 
