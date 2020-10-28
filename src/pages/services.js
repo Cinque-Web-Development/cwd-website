@@ -60,7 +60,7 @@ const Services = (props) => (
                     </div>
                 </section>
                 <section>
-                        <img src={pic10} alt="" />
+                        <img src={pic10} alt="" className="image"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
