@@ -66,7 +66,7 @@ class HomeIndex extends React.Component {
             
                             <br/> See how Cinque can build you a customized web presence. </p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/services" className="button next">Get Started</Link></li>
                             </ul>
                         </div>
                     </section>
