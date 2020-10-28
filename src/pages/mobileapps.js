@@ -7,8 +7,8 @@ import pic11 from '../assets/images/pic11.jpg'
 const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>CWD - Mobile Apps</title>
+            <meta name="description" content="Mobile Apps Services" />
         </Helmet>
 
         <div id="main" className="alt">

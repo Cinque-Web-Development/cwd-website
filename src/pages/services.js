@@ -11,8 +11,8 @@ import pic10 from '../assets/images/pic10.jpg'
 const Services = (props) => (
     <Layout>
         <Helmet>
-            <title>Services</title>
-            <meta name="description" content="Landing Page" />
+            <title>CWD - Services</title>
+            <meta name="description" content="Services" />
         </Helmet>
 
         <BannerLanding />
@@ -28,7 +28,7 @@ const Services = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/websites" className="image">
                         <img src={pic08} alt="" />
                     </Link>
                     <div className="content">
@@ -38,13 +38,13 @@ const Services = (props) => (
                             </header>
                             <p>Our team of experienced developers can build you simple and scalable websites for your business, or help you implement a new feature on your existing site.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/websites" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/mobileapps" className="image">
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
@@ -54,15 +54,13 @@ const Services = (props) => (
                             </header>
                             <p>Have an idea for a mobile app? Our team can help that dream become a reality.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/mobileapps" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
                         <img src={pic10} alt="" />
-                    </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
