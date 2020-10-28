@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 import pic12 from '../assets/images/pic12.jpg'
 
-const Generic = (props) => (
+const MobileApps = (props) => (
     <Layout>
         <Helmet>
             <title>CWD - Mobile Apps</title>
@@ -28,4 +28,4 @@ const Generic = (props) => (
     </Layout>
 )
 
-export default Generic
+export default MobileApps
