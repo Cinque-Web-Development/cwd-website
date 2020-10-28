@@ -7,7 +7,7 @@ const Contact = (props) => {
         <section id="contact">
             <div className="inner">
                 <section>
-                    <form name="cinque" onSubmit={() => setEmptyState(null)} netlify>
+                    <form name="cinque" onSubmit={() => setEmptyState(null)} data-netlify="true">
                         <div className="field half first">
                             <label htmlFor="name">Name</label>
                             <input type="text" name="name" id="name" />
