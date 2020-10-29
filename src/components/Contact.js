@@ -7,7 +7,7 @@ const Contact = props => {
     fetch('/', {
       method: 'POST',
     })
-      .then(() => alert('Success!!'))
+      .then(() => prompt('Successfully sent a message!!  The team will get back to you in a timely manner! Thank you'))
       .catch(error => alert(error))
       setEmptyState(null)
     event.preventDefault()
