@@ -7,9 +7,13 @@ const Contact = props => {
     fetch('/', {
       method: 'POST',
     })
-      .then(() => prompt('Successfully sent a message!!  The team will get back to you in a timely manner! Thank you'))
+      .then(() =>
+        alert(
+          'Successfully sent a message!!  The team will get back to you in a timely manner! Thank you'
+        )
+      )
       .catch(error => alert(error))
-      setEmptyState(null)
+    document.getElementById('contact-message-form').reset()
     event.preventDefault()
   }
 
@@ -18,6 +22,7 @@ const Contact = props => {
       <div className="inner">
         <section>
           <form
+            id="contact-message-form"
             name="cinque"
             method="POST"
             onSubmit={handleSubmit}
