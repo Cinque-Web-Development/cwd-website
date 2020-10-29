@@ -18,9 +18,17 @@ const Websites = (props) => (
                         <h1>Websites</h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                    <h4> CWD React Website</h4>
+                    <p>Building website in React allows for easier scalability and feature implemention, so your website can grow as your business grows.<br />
+                    If you site needs to store user data then React sites are the right choice.</p>
+                    
+                    <h4>CWD Gatsby Website</h4>
+                    <p>If you need to get a site up and running quickly for your business. Then Gatsby websites is a perfect option for your business.</p>
+                    <h4>CWD Business Website</h4>
+                    <p>Built with HTML and CSS, CWD websites will give you a less complex site for your business. Making it easier for you to customize your own site. </p>
+                    <h4>CWD Personal Website</h4>
+                    <p>If you are looking to build a personal website, any of the above options can work for you.  Please contact us to find which option is the best fit.</p>
+                    <h2>If you are unsure or have questions about which website option is right for you, please contact us to schedule a meeting.</h2>
                 </div>
             </section>
         </div>
