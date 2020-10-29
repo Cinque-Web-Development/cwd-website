@@ -6,7 +6,7 @@
 
 [Follow us on Twitter](https://twitter.com/cinquewebdev)
 
-[Support us on Patreon](patreon.com/user?u=44561067&fan_landing=true)
+[Support us on Patreon](https://www.patreon.com/cinque_web_development)
 
 Gatsby starter cloned from
  https://github.com/codebushi/gatsby-starter-forty
