@@ -6,11 +6,14 @@ const encode = data => {
     .join('&')
 }
 const Contact = props => {
+    const [formData, setFormData] = useState({})
+
   const handleSubmit = event => {
+    
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'cinque' }),
+      body: encode(event),
     })
       .then(() =>
         alert(
