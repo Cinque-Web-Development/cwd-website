@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
 
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
 const Contact = props => {
-  const [emptyState, setEmptyState] = useState(null)
-
   const handleSubmit = event => {
     fetch('/', {
       method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'cinque' }),
     })
       .then(() =>
         alert(
@@ -24,7 +29,6 @@ const Contact = props => {
           <form
             id="contact-message-form"
             name="cinque"
-            method="POST"
             onSubmit={handleSubmit}
             data-netlify="true"
           >
