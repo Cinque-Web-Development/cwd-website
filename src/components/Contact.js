@@ -13,7 +13,7 @@ const Contact = props => {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode(event),
+      body: encode({"form-name": 'cinque', ...formData}),
     })
       .then(() =>
         alert(
@@ -24,6 +24,8 @@ const Contact = props => {
     document.getElementById('contact-message-form').reset()
     event.preventDefault()
   }
+
+  const handleChange = e => setFormData({ [e.target.name]: e.target.value, ...formData })
 
   return (
     <section id="contact">
@@ -37,15 +39,15 @@ const Contact = props => {
           >
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input onChange={handleChange} type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input onChange={handleChange} type="text" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="6"></textarea>
+              <textarea onChange={handleChange} name="message" id="message" rows="6"></textarea>
             </div>
             <ul className="actions">
               <li>
