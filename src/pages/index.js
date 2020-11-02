@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
@@ -22,6 +22,7 @@ class HomeIndex extends React.Component {
                         { name: 'keywords', content: 'sample, something' },
                     ]}
                 >
+                    <script async defer src={withPrefix('pop-in.js')} type="text/javascript"></script>
                 </Helmet>
 
                 <Banner />
@@ -33,7 +34,7 @@ class HomeIndex extends React.Component {
                                 <h3>Trippin'</h3>
                                 <p>Click to start planning trips</p>
                             </header>
-                            <a target="_blank" href="https://trippin-cwd.herokuapp.com" className="link primary"></a>
+                            <a target="_blank" href="https://trippin-cwd.herokuapp.com" className="link primary" rel='noreferrer'></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
