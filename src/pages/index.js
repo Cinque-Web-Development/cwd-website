@@ -7,7 +7,7 @@ import Banner from '../components/Banner'
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic04 from '../assets/images/pic04.png'
 
 
 class HomeIndex extends React.Component {
@@ -52,10 +52,10 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>PokeFaves</h3>
-                                <p>Click to collect pokemon and build your best teams.</p>
+                                <h3>Cinque</h3>
+                                <p>Click to view Cinque's ultimate homepage.</p>
                             </header>
-                            <a target="_blank" href="https://pokefaves.herokuapp.com/" className="link primary"></a>
+                            <a target="_blank" href="https://cinque.cinquewd.com/" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">
