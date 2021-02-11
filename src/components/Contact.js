@@ -64,7 +64,7 @@ const Contact = props => {
             <div className="contact-method">
               <span className="icon alt fa-envelope"></span>
               <h3>Email</h3>
-              <a href="mailto:cinquewebdev@gmail.com">cinquewebdev@gmail.com</a>
+              <a href="mailto:cinquewebdev@gmail.com">cinquewebdevelopment@gmail.com</a>
             </div>
           </section>
           <section>
