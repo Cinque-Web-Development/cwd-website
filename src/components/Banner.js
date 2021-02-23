@@ -7,8 +7,6 @@ const Banner = (props) => (
                 <h1>&lt; Cinque Web Development /&gt;</h1>
             </header>
             <div className="content">
-                <p>A catchy sentence about our business<br/>
-                that makes you want to keep scrolling.</p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Get Started</a></li>
                 </ul>
