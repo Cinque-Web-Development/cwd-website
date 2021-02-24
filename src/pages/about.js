@@ -20,10 +20,10 @@ export default function about() {
             <div id="main" className="alt">
                 <section id="one">
                     <div className="inner">
+                        <p>Cinque Web Development (pronounced SINK-ā) was created by a group of software engineers looking to build applications together and acquire new skills. What started as a desire to build passion projects in the side evolved into </p>
                         <header className="major">
                             <h1>Meet the Team</h1>
                         </header>
-                        <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
                         <div className="grid-wrapper">
                             <div className="col-4">
                                 <header className="major">
