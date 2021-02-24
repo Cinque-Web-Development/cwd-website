@@ -15,6 +15,11 @@
 			display: block;
 		}
 
+		&.about {
+			height: 200px;
+			border-radius: 100px;
+		}
+
 		&.left,
 		&.right {
 			max-width: 30%;
