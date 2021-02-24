@@ -24,7 +24,10 @@ const Services = () => (
                     <header className="major">
                         <h2>About Cinque</h2>
                     </header>
-                    <p>Cinque Web Development consists of a team of experienced developers who have a wide range of knowledge, building websites and passion projects.</p>
+                    <p>
+                        Cinque Web Development consists of a team of experienced developers who have a wide range of knowledge, building websites and passion projects.
+                        &nbsp;<Link to="/about">Read more about the team.</Link>
+                    </p>
                 </div>
             </section>
             <section id="two" className="spotlights">
