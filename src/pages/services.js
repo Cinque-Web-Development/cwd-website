@@ -9,14 +9,14 @@ import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import pic11 from '../assets/images/pic11.jpg'
 
-const Services = (props) => (
+const Services = () => (
     <Layout>
         <Helmet>
             <title>CWD - Services</title>
             <meta name="description" content="Services" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerLanding title="Services" />
 
         <div id="main">
             <section id="one">
@@ -77,13 +77,18 @@ const Services = (props) => (
                     </div>
                 </section>
                 <section>
-                    <img src={pic11} alt="" className="image"/>
+                    <a href="#contact" className="image">
+                        <img src={pic11} alt="" />
+                    </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
                                 <h3>Contact us if these options don't fit</h3>
                             </header>
                             <p>Something something customizable solution</p>
+                            <ul className="actions">
+                                <li><a href="#contact" className="button">Contact Us</a></li>
+                            </ul>
                         </div>
                     </div>
                 </section>

@@ -20,7 +20,8 @@
 
 // Font.
 	$font: (
-		family:				('Patua One', Helvetica, sans-serif),
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-cinque:		('Patua One', sans-serif),
 		family-fixed:		('Roboto', monospace),
 		weight:				300,
 		weight-bold:		600,
@@ -32,6 +33,7 @@
 	$palette: (
 		bg:					#242943,
 		bg-alt:				#2a2f4a,
+		cinque:				#81D8F7,
 		fg:					#ffffff,
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.2),
