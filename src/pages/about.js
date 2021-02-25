@@ -4,9 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import trahan from '../assets/images/team/trahan.png'
-import kath from '../assets/images/team/kathleen.jpg'
-
 export default function about() {
     return (
         <Layout>
@@ -20,7 +17,10 @@ export default function about() {
             <div id="main" className="alt">
                 <section id="one">
                     <div className="inner">
-                        <p>Cinque Web Development (pronounced SINK-ā) was created by a group of software engineers looking to build applications together and acquire new skills. What started as a desire to build passion projects in the side evolved into </p>
+                        <p>Cinque Web Development (pronounced SINK-ā) was created by a group of software engineers looking to build applications 
+                            and acquire new skills. What started as a desire to build small side projects together evolved into a small business serving 
+                            other small businesses and individuals. At Cinque, our mission is to continuously learn new skills and technologies in 
+                            order to create the best products for our clients and teach those skills to others.</p>
                         <header className="major">
                             <h1>Meet the Team</h1>
                         </header>
@@ -29,7 +29,6 @@ export default function about() {
                                 <header className="major">
                                     <h3 className="name">&lt; Samuel Trahan /&gt;</h3>
                                 </header>
-                                <img src={trahan} alt="Samuel Trahan" className="image about"/>
                                 <h4>Co-Founder</h4>
                                 <p>Front End Developer</p>
                                 <hr/>
@@ -38,7 +37,6 @@ export default function about() {
                                 <header className="major">
                                     <h3 className="name">&lt; Kathleen Stickel /&gt;</h3>
                                 </header>
-                                <img src={kath} alt="Kathleen Stickel" className="image about" />
                                 <h4>Co-Founder</h4>
                                 <p>Front End Developer</p>
                                 <hr/>
