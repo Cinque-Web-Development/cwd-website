@@ -15,6 +15,10 @@
 			display: block;
 		}
 
+		&.about {
+			height: 200px;
+		}
+
 		&.left,
 		&.right {
 			max-width: 30%;

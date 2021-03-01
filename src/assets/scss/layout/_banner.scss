@@ -23,7 +23,7 @@
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
-		color: #81D8F7;
+		color: _palette(cinque);
 		
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');

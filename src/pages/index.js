@@ -18,8 +18,7 @@ class HomeIndex extends React.Component {
                 <Helmet
                     title="Cinque Web Development"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'Cinque Web Development', content: 'Web development for businesses, individuals, marketing, and more.' }
                     ]}
                 >
                     <script async defer src={withPrefix('pop-in.js')} type="text/javascript"></script>
@@ -34,28 +33,28 @@ class HomeIndex extends React.Component {
                                 <h3>Trippin'</h3>
                                 <p>Click to start planning trips</p>
                             </header>
-                            <a target="_blank" href="https://trippin-cwd.herokuapp.com" className="link primary" rel='noreferrer'></a>
+                            <a target="_blank" href="https://trippin-cwd.herokuapp.com" className="link primary" rel='noopener noreferrer'></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Caddie</h3>
                                 <p>Click to start searching for golf courses</p>
                             </header>
-                            <a target="_blank" href="https://www.caddie-golf.com" className="link primary"></a>
+                            <a target="_blank" href="https://www.caddie-golf.com" className="link primary" rel='noopener noreferrer'></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Collect the Cosmos</h3>
                                 <p>Click to explore the most beautiful images the universe has to offer.</p>
                             </header>
-                            <a target="_blank" href="https://collect-the-cosmos.herokuapp.com/" className="link primary"></a>
+                            <a target="_blank" href="https://collect-the-cosmos.herokuapp.com/" className="link primary" rel='noopener noreferrer'></a>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Cinque</h3>
                                 <p>Click to view Cinque's ultimate homepage.</p>
                             </header>
-                            <a target="_blank" href="https://cinque.cinquewd.com/" className="link primary"></a>
+                            <a target="_blank" href="https://cinque.cinquewd.com/" className="link primary" rel='noopener noreferrer'></a>
                         </article>
                     </section>
                     <section id="two">
@@ -63,11 +62,10 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>Let's build a website</h2>
                             </header>
-                            <p>Explore our different options of web applications to fit any of your website needs, from upgrading your current site to building an new application from scratch.
-            
+                            <p>Explore our different web application options to fit any of your website needs, from upgrading your current site to building an new application from scratch.
                             <br/> See how Cinque can build you a customized web presence. </p>
                             <ul className="actions">
-                                <li><Link to="/services" className="button next">Get Started</Link></li>
+                                <li><Link to="/services" className="button next">Learn More</Link></li>
                             </ul>
                         </div>
                     </section>
