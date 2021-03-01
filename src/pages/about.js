@@ -4,6 +4,13 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
+import trahan from '../assets/images/team/trahan.png'
+import stickel from '../assets/images/team/stickel.png'
+import gemberling from '../assets/images/team/gemberling.png'
+import matt from '../assets/images/team/matt.png'
+import jen from '../assets/images/team/jen.png'
+import esteban from '../assets/images/team/esteban.png'
+
 export default function about() {
     return (
         <Layout>
@@ -26,49 +33,22 @@ export default function about() {
                         </header>
                         <div className="grid-wrapper">
                             <div className="col-4 about-col">
-                                <header className="major name-wrapper">
-                                    <h3 className="name">&lt; Samuel Trahan /&gt;</h3>
-                                </header>
-                                <h4>Co-Founder</h4>
-                                <p>Front End Developer</p>
-                                <hr/>
+                                <img src={trahan} className="image fit" alt="Samuel Trahan, Co-Founder, Front End Developer"/>
                             </div>
                             <div className="col-4 about-col">
-                                <header className="major name-wrapper">
-                                    <h3 className="name">&lt; Kathleen Stickel /&gt;</h3>
-                                </header>
-                                <h4>Co-Founder</h4>
-                                <p>Front End Developer</p>
-                                <hr/>
+                                <img src={stickel} className="image fit" alt="Kathleen Stickel, Co-Founder, Front End Developer"/>
                             </div>
                             <div className="col-4 about-col">
-                                <header className="major name-wrapper">
-                                    <h3 className="name">&lt; Samuel Gemberling /&gt;</h3>
-                                </header>
-                                <h4>Co-Founder</h4>
-                                <p>Back End Developer</p>
-                                <hr/>
+                                <img src={gemberling} className="image fit" alt="Samuel Gemberling, Co-Founder, Back End Developer"/>
                             </div>
                             <div className="col-4 about-col">
-                                <header className="major name-wrapper">
-                                    <h3 className="name">&lt; Matthew Moquin /&gt;</h3>
-                                </header>
-                                <p>Back End Developer</p>
-                                <hr/>
+                                <img src={matt} className="image fit" alt="Matthew Moquin, Back End Developer"/>
                             </div>
                             <div className="col-4 about-col">
-                                <header className="major name-wrapper">
-                                    <h3 className="name">&lt; Jen Rand /&gt;</h3>
-                                </header>
-                                <p>UX Designer & Researcher</p>
-                                <hr/>
+                                <img src={jen} className="image fit" alt="Jen Rand, UX Designer and Researcher"/>
                             </div>
                             <div className="col-4 about-col">
-                                <header className="major name-wrapper">
-                                    <h3 className="name">&lt; Esteban Favetto /&gt;</h3>
-                                </header>
-                                <p>UX Designer & Researcher</p>
-                                <hr/>
+                                <img src={esteban} className="image fit" alt="Esteban Favetto, UX Designer and Researcher"/>
                             </div>
                         </div>
                     </div>
