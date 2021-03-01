@@ -88,7 +88,7 @@ const Services = () => (
                             <header className="major">
                                 <h3>Contact us if these options don't fit</h3>
                             </header>
-                            <p>Something something customizable solution</p>
+                            <p>Ciqnue can build a tailor-made solution to meet your needs, even if you don't fit into the above categories. Reach out to us to discuss your idea, and learn how we can build you a customized web presence.</p>
                             <ul className="actions">
                                 <li><a href="#contact" className="button">Contact Us</a></li>
                             </ul>

@@ -47,7 +47,6 @@
 	}
 
 	strong, b {
-		// color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 	}
 
@@ -60,7 +59,6 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		// color: _palette(fg-bold);
 		font-family: _font(family-cinque);
 		font-weight: _font(weight-bold);
 		line-height: 1.65;
@@ -70,6 +68,19 @@
 			color: inherit;
 			border-bottom: 0;
 		}
+	}
+
+	.about-col {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.name-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.name {
